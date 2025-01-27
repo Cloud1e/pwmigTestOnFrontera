@@ -1,0 +1,10 @@
+tapis/
+scoped/
+mongodb/
+pwmig_work/__pycache__
+pwmig_work/logs
+pwmig_work/work
+containers/*.sif
+pwmig_work/simdata
+pwmig_work/imagevolumes/
+pwmig_work/pf

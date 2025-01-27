@@ -1,0 +1,250 @@
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+/test/pwmig_testsuite_dataprep.py:167: FutureWarning: Passing 'suffixes' which cause duplicate columns {'lddate_site'} in the result is deprecated and will raise a MergeError in a future version.
+  df_final = dfa.merge(df,how='inner',on=['sta','evid'],suffixes=['_event','_site'])
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+Warning:  Triming incident P wave grid from 1707 points on ray path to 1678
+Created by turning rays for P.  Consider reducing tmax or zmax parameters
+slurmstepd: error: *** STEP 6879430.0 ON c103-033 CANCELLED AT 2025-01-26T17:49:42 ***

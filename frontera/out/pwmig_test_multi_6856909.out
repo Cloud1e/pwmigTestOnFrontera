@@ -1,0 +1,954 @@
+/scratch1/10208/chenboyin/containers
+Thu Jan 16 13:38:01 CST 2025
+primary node c196-061
+got login node port 16196
+Created reverse ports on Frontera logins
+c196-062,c196-071
+Using Single node MongoDB
+{"t":{"$date":"2025-01-16T19:38:10.914Z"},"s":"I",  "c":"CONTROL",  "id":20697,   "ctx":"-","msg":"Renamed existing log file","attr":{"oldLogPath":"/scratch1/10208/chenboyin/pwmig_work/logs/mongo_log","newLogPath":"/scratch1/10208/chenboyin/pwmig_work/logs/mongo_log.2025-01-16T19-38-10"}}
+start running test.py
+MONGO_URI in test.py:  c196-061
+In the beginning, wf_Seismogram collection size= 0
+0      0.0875857
+1      0.0879027
+2      0.088227
+3      0.0885563
+4      0.088893
+5      0.0892354
+6      0.0895858
+7      0.0899277
+8      0.0902536
+9      0.0906682
+10      0.0912178
+11      0.0917741
+12      0.0923372
+13      0.0983632
+14      0.0991827
+15      0.100016
+16      0.100863
+17      0.101725
+18      0.102602
+19      0.103494
+20      0.104402
+21      0.105325
+22      0.106265
+23      0.111191
+24      0.112331
+25      0.113494
+26      0.114682
+27      0.115895
+28      0.117134
+29      0.118399
+30      0.119692
+31      0.120887
+32      0.12191
+33      0.122951
+34      0.12401
+35      0.12426
+36      0.124305
+37      0.124351
+38      0.153846
+39      0.172414
+0      0.15716
+1      0.157592
+2      0.158034
+3      0.158484
+4      0.158945
+5      0.159412
+6      0.159891
+7      0.160353
+8      0.160784
+9      0.161667
+10      0.163248
+11      0.164914
+12      0.166697
+13      0.178929
+14      0.180642
+15      0.182389
+16      0.184169
+17      0.185984
+18      0.187836
+19      0.189725
+20      0.191652
+21      0.193618
+22      0.195626
+23      0.206075
+24      0.207939
+25      0.209837
+26      0.21177
+27      0.213739
+28      0.215745
+29      0.21778
+30      0.219838
+31      0.221435
+32      0.22168
+33      0.221926
+34      0.222173
+35      0.222455
+36      0.222746
+37      0.223039
+38      0.25974
+39      0.289017
+MONGO_URI:  c196-061
+Testing read_1d_model_file
+
+Changed directory to: /test/pf
+/test/pf
+
+ObjectID of MongoDB doc contents saved for 2d grid
+67896032c1c5cef827417b84
+ObjectID of doc contents saved for 2d grid
+67896032c1c5cef827417b85
+
+ObjectID of MongoDB doc contents saved for 2d grid
+67896035f15332495f653546
+ObjectID of doc contents saved for 2d grid
+67896035f15332495f653547
+
+ObjectID of doc contents saved for 2d grid
+67896037627c161429aa8062
+Document contents saved for GCLscalarfield3d object holding this model
+{
+  "_id": {
+    "$oid": "67896037627c161429aa8062"
+  },
+  "dx1_nom": 35.0,
+  "n3": 40,
+  "field_data_file_extension": "dat",
+  "grid_data_file_extension": "dat",
+  "grid_data_foff": 0,
+  "j0": 43,
+  "n1": 60,
+  "object_type": "pwmig::gclgrid::GCLscalarfield3d",
+  "n2": 70,
+  "azimuth_y": -14.999999999999744,
+  "grid_data_file": "ak135_P",
+  "x1low": -733.6697543208692,
+  "datatype": "u8",
+  "origin_radius": 5393.778216927553,
+  "i0": 20,
+  "dfile": "ak135_P",
+  "x2high": 941.6036239953879,
+  "byte_order": "little_endian",
+  "field_data_foff": 4032000,
+  "x3high": 1010.0164008909555,
+  "k0": 0,
+  "dx2_nom": 35.0,
+  "dx3_nom": 25.0,
+  "origin_latitude": 41.422999999999305,
+  "x3low": -301.0485154644667,
+  "dir": "/test/pf/GCLgrids",
+  "name": "ak135_P",
+  "field_data_file": "ak135_P",
+  "x1high": 1389.4175526199042,
+  "x2low": -1527.2138636653722,
+  "origin_longitude": -117.44969999999802
+}
+
+ObjectID of doc contents saved for 2d grid
+6789603ac779600704fd0d91
+Document contents saved for GCLscalarfield3d object holding this model
+{
+  "_id": {
+    "$oid": "6789603ac779600704fd0d91"
+  },
+  "datatype": "u8",
+  "x3low": -301.0485154644667,
+  "x2high": 941.6036239953879,
+  "x2low": -1527.2138636653722,
+  "dx1_nom": 35.0,
+  "grid_data_file": "ak135_S",
+  "n3": 40,
+  "origin_longitude": -117.44969999999802,
+  "k0": 0,
+  "grid_data_file_extension": "dat",
+  "j0": 43,
+  "object_type": "pwmig::gclgrid::GCLscalarfield3d",
+  "dx2_nom": 35.0,
+  "origin_latitude": 41.422999999999305,
+  "dx3_nom": 25.0,
+  "field_data_file": "ak135_S",
+  "field_data_foff": 4032000,
+  "azimuth_y": -14.999999999999744,
+  "n1": 60,
+  "x1low": -733.6697543208692,
+  "dfile": "ak135_S",
+  "origin_radius": 5393.778216927553,
+  "n2": 70,
+  "name": "ak135_S",
+  "x1high": 1389.4175526199042,
+  "x3high": 1010.0164008909555,
+  "grid_data_foff": 0,
+  "field_data_file_extension": "dat",
+  "dir": "/test/pf/GCLgrids",
+  "byte_order": "little_endian",
+  "i0": 20
+}
+
+Changed directory to: /test
+ak135P Pvelocity
+ak135S Svelocity
+number of documents with name ak135_P= 1
+Detailed contents:
+{
+  "_id": {
+    "$oid": "67896037627c161429aa8062"
+  },
+  "dx1_nom": 35.0,
+  "n3": 40,
+  "field_data_file_extension": "dat",
+  "grid_data_file_extension": "dat",
+  "grid_data_foff": 0,
+  "j0": 43,
+  "n1": 60,
+  "object_type": "pwmig::gclgrid::GCLscalarfield3d",
+  "n2": 70,
+  "azimuth_y": -14.999999999999744,
+  "grid_data_file": "ak135_P",
+  "x1low": -733.6697543208692,
+  "datatype": "u8",
+  "origin_radius": 5393.778216927553,
+  "i0": 20,
+  "dfile": "ak135_P",
+  "x2high": 941.6036239953879,
+  "byte_order": "little_endian",
+  "field_data_foff": 4032000,
+  "x3high": 1010.0164008909555,
+  "k0": 0,
+  "dx2_nom": 35.0,
+  "dx3_nom": 25.0,
+  "origin_latitude": 41.422999999999305,
+  "x3low": -301.0485154644667,
+  "dir": "/test/pf/GCLgrids",
+  "name": "ak135_P",
+  "field_data_file": "ak135_P",
+  "x1high": 1389.4175526199042,
+  "x2low": -1527.2138636653722,
+  "origin_longitude": -117.44969999999802
+}
+number of documents with name ak135_S= 1
+Detailed contents:
+{
+  "_id": {
+    "$oid": "6789603ac779600704fd0d91"
+  },
+  "datatype": "u8",
+  "x3low": -301.0485154644667,
+  "x2high": 941.6036239953879,
+  "x2low": -1527.2138636653722,
+  "dx1_nom": 35.0,
+  "grid_data_file": "ak135_S",
+  "n3": 40,
+  "origin_longitude": -117.44969999999802,
+  "k0": 0,
+  "grid_data_file_extension": "dat",
+  "j0": 43,
+  "object_type": "pwmig::gclgrid::GCLscalarfield3d",
+  "dx2_nom": 35.0,
+  "origin_latitude": 41.422999999999305,
+  "dx3_nom": 25.0,
+  "field_data_file": "ak135_S",
+  "field_data_foff": 4032000,
+  "azimuth_y": -14.999999999999744,
+  "n1": 60,
+  "x1low": -733.6697543208692,
+  "dfile": "ak135_S",
+  "origin_radius": 5393.778216927553,
+  "n2": 70,
+  "name": "ak135_S",
+  "x1high": 1389.4175526199042,
+  "x3high": 1010.0164008909555,
+  "grid_data_foff": 0,
+  "field_data_file_extension": "dat",
+  "dir": "/test/pf/GCLgrids",
+  "byte_order": "little_endian",
+  "i0": 20
+}
+size of dataframe created from wfprocess= 651
+Size of join with evlink= 651
+Size of join with sclink= 651
+Size of join with event= 651
+Size of join with site= 651
+event-origin join size (should be 1 here)= 1
+   evid evname  prefor auth  ...  algorithm  auth_origin  commid_origin  lddate_origin
+0    22      -      22    -  ...          -            -             -1   1.245429e+09
+
+[1 rows x 31 columns]
+Size of join with assoc= 651
+size of final dataframe= 651
+wf_Seismogram collection size= 651
+First document in collection
+{
+  "_id": {
+    "$oid": "6789603be0ed3dc32ec9b8be"
+  },
+  "evid": 22,
+  "event_lat": -9.8149,
+  "storage_mode": "file",
+  "event_lon": -75.6185,
+  "event_depth": 154.7467,
+  "event_time": 1577912400.0,
+  "orid": 22,
+  "sta": "109C",
+  "phase": "P",
+  "assoc_delta": 1.83,
+  "assoc_seaz": 0.46,
+  "assoc_esaz": 6.24,
+  "iphase": "P",
+  "pwfid": 3102,
+  "starttime": 1577912967.53105,
+  "endtime": 1577913102.63105,
+  "time_standard": "UTC",
+  "dir": "simdata",
+  "dfile": "simdata_22",
+  "foff": 0,
+  "npts": 2703,
+  "dtype": "c3",
+  "samprate": 20.0,
+  "site_lat": 32.8889,
+  "site_lon": -117.1051,
+  "site_elev": 0.15,
+  "Ptime": 1577912977.58105,
+  "delta": 0.05
+}
+6789603be0ed3dc32ec9bb49
+updated  651  documents with source_id
+example
+{
+  "_id": {
+    "$oid": "6789603be0ed3dc32ec9b8be"
+  },
+  "evid": 22,
+  "event_lat": -9.8149,
+  "storage_mode": "file",
+  "event_lon": -75.6185,
+  "event_depth": 154.7467,
+  "event_time": 1577912400.0,
+  "orid": 22,
+  "sta": "109C",
+  "phase": "P",
+  "assoc_delta": 1.83,
+  "assoc_seaz": 0.46,
+  "assoc_esaz": 6.24,
+  "iphase": "P",
+  "pwfid": 3102,
+  "starttime": 1577912967.53105,
+  "endtime": 1577913102.63105,
+  "time_standard": "UTC",
+  "dir": "simdata",
+  "dfile": "simdata_22",
+  "foff": 0,
+  "npts": 2703,
+  "dtype": "c3",
+  "samprate": 20.0,
+  "site_lat": 32.8889,
+  "site_lon": -117.1051,
+  "site_elev": 0.15,
+  "Ptime": 1577912977.58105,
+  "delta": 0.05,
+  "source_id": {
+    "$oid": "6789603be0ed3dc32ec9bb49"
+  }
+}
+number of documents now in site= 651
+109C 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb4a
+112A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb4b
+113A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb4c
+114A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb4d
+115A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb4e
+116A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb4f
+117A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb50
+118A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb51
+119A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb52
+120A 6789603be0ed3dc32ec9bb49 6789603ce0ed3dc32ec9bb53
+{
+  "_id": {
+    "$oid": "6789603de0ed3dc32ec9bdd6"
+  },
+  "x1high": 1389.4175526199042,
+  "dx3_nom": 25.0,
+  "i0": 20,
+  "n1": 60,
+  "dir": "/test/pf/GCLgrids",
+  "dx2_nom": 35.0,
+  "object_type": "pwmig::gclgrid::GCLscalarfield3d",
+  "field_data_file": "ak135_dUP_6789603de0ed3dc32ec9bdd5",
+  "byte_order": "little_endian",
+  "origin_longitude": -117.44969999999604,
+  "azimuth_y": -14.99999999999949,
+  "dx1_nom": 35.0,
+  "origin_radius": 5393.778216927553,
+  "grid_data_file_extension": "dat",
+  "x2high": 941.6036239953879,
+  "datatype": "u8",
+  "dfile": "ak135_dUP_6789603de0ed3dc32ec9bdd5",
+  "x1low": -733.6697543208692,
+  "field_data_file_extension": "dat",
+  "origin_latitude": 41.4229999999986,
+  "k0": 0,
+  "grid_data_file": "ak135_dUP_6789603de0ed3dc32ec9bdd5",
+  "grid_data_foff": 0,
+  "x3low": -301.0485154644667,
+  "n2": 70,
+  "field_data_foff": 4032000,
+  "x3high": 1010.0164008909555,
+  "x2low": -1527.2138636653722,
+  "name": "ak135_dUP",
+  "j0": 43,
+  "n3": 40
+}
+{
+  "_id": {
+    "$oid": "6789603de0ed3dc32ec9bdd8"
+  },
+  "x1high": 1389.4175526199042,
+  "dx3_nom": 25.0,
+  "i0": 20,
+  "n1": 60,
+  "dir": "/test/pf/GCLgrids",
+  "dx2_nom": 35.0,
+  "object_type": "pwmig::gclgrid::GCLscalarfield3d",
+  "field_data_file": "ak135_dUS_6789603de0ed3dc32ec9bdd7",
+  "byte_order": "little_endian",
+  "origin_longitude": -117.44969999999604,
+  "azimuth_y": -14.99999999999949,
+  "dx1_nom": 35.0,
+  "origin_radius": 5393.778216927553,
+  "grid_data_file_extension": "dat",
+  "x2high": 941.6036239953879,
+  "datatype": "u8",
+  "dfile": "ak135_dUS_6789603de0ed3dc32ec9bdd7",
+  "x1low": -733.6697543208692,
+  "field_data_file_extension": "dat",
+  "origin_latitude": 41.4229999999986,
+  "k0": 0,
+  "grid_data_file": "ak135_dUS_6789603de0ed3dc32ec9bdd7",
+  "grid_data_foff": 0,
+  "x3low": -301.0485154644667,
+  "n2": 70,
+  "field_data_foff": 4032000,
+  "x3high": 1010.0164008909555,
+  "x2low": -1527.2138636653722,
+  "name": "ak135_dUS",
+  "j0": 43,
+  "n3": 40
+}
+This is the end of the data prep for the pwmig test suite
+Fresnel zone aperture calculation used
+lag   aperture(km)    cutoff(km)
+0  11.25  22.5
+1  18.8249  37.6497
+2  24.1286  48.2571
+3  28.4605  56.921
+4  32.2151  64.4302
+5  35.5756  71.1512
+6  38.645  77.29
+7  41.488  82.9759
+8  44.1482  88.2964
+9  46.657  93.314
+10  49.0376  98.0752
+11  51.3079  102.616
+12  53.4819  106.964
+13  55.5709  111.142
+14  57.5842  115.168
+15  59.5294  119.059
+16  61.413  122.826
+17  63.2406  126.481
+18  65.0168  130.034
+19  66.7458  133.492
+20  68.4311  136.862
+21  70.0759  140.152
+22  71.6829  143.366
+23  73.2547  146.509
+24  74.7935  149.587
+25  76.3012  152.602
+26  77.7797  155.559
+27  79.2307  158.461
+28  80.6555  161.311
+29  82.0556  164.111
+30  83.4322  166.864
+31  84.7865  169.573
+32  86.1195  172.239
+33  87.4321  174.864
+34  88.7253  177.451
+35  90  180
+36  91.2568  182.514
+37  92.4966  184.993
+38  93.72  187.44
+39  94.9276  189.855
+40  96.12  192.24
+41  97.2979  194.596
+42  98.4616  196.923
+43  99.6117  199.223
+44  100.749  201.498
+45  101.873  203.746
+46  102.985  205.97
+47  104.085  208.171
+48  105.174  210.348
+49  106.251  212.503
+50  107.318  214.636
+51  108.374  216.749
+52  109.42  218.841
+53  110.456  220.913
+54  111.483  222.966
+55  112.5  225
+56  113.508  227.016
+57  114.507  229.014
+58  115.498  230.995
+59  116.48  232.959
+60  117.453  234.907
+61  118.419  236.839
+62  119.377  238.755
+63  120.328  240.655
+64  121.271  242.541
+65  122.206  244.413
+66  123.135  246.27
+67  124.056  248.113
+68  124.971  249.942
+69  125.879  251.759
+70  126.781  253.562
+71  127.676  255.353
+72  128.565  257.131
+73  129.448  258.897
+74  130.325  260.651
+75  131.196  262.393
+76  132.062  264.124
+77  132.921  265.843
+78  133.776  267.551
+79  134.624  269.249
+80  135.468  270.936
+81  136.306  272.612
+82  137.139  274.279
+83  137.967  275.935
+84  138.791  277.581
+85  139.609  279.218
+86  140.422  280.845
+87  141.231  282.462
+88  142.035  284.071
+89  142.835  285.67
+90  143.63  287.261
+91  144.421  288.843
+92  145.208  290.416
+93  145.99  291.98
+94  146.768  293.537
+95  147.542  295.085
+96  148.312  296.625
+97  149.078  298.157
+98  149.841  299.681
+99  150.599  301.198
+pwstack_return start
+pwstack finished.  Elapsed time= 243.96464896202087
+Incident Wave Ray Grid:  3d correction range=-9.10703e-14 to 2.04098e-13
+
+
+Working on data from this event
+{
+  "_id": {
+    "$oid": "6789603be0ed3dc32ec9bb49"
+  },
+  "lat": -9.8149,
+  "lon": -75.6185,
+  "depth": 154.7467,
+  "time": 1577912400.0,
+  "magnitude": 9.0
+}
+Working on gridid= 0
+Time to run read_ensemble= 225.15956616401672  Time to run migrate_component= 35.00200128555298
+Time to sum this plane wave component = 6.151143312454224
+Working on gridid= 1
+Time to run read_ensemble= 8.99515700340271  Time to run migrate_component= 34.1886191368103
+Time to sum this plane wave component = 6.232182741165161
+Working on gridid= 2
+Time to run read_ensemble= 8.602769613265991  Time to run migrate_component= 34.2294864654541
+Time to sum this plane wave component = 6.298740386962891
+Working on gridid= 3
+Time to run read_ensemble= 8.620954036712646  Time to run migrate_component= 34.34481406211853
+Time to sum this plane wave component = 6.350323915481567
+Working on gridid= 4
+Time to run read_ensemble= 8.501422882080078  Time to run migrate_component= 34.43892979621887
+Time to sum this plane wave component = 6.427816390991211
+Working on gridid= 5
+Time to run read_ensemble= 9.790815114974976  Time to run migrate_component= 34.29204988479614
+Time to sum this plane wave component = 6.3417322635650635
+Working on gridid= 6
+Time to run read_ensemble= 8.54098129272461  Time to run migrate_component= 35.44792580604553
+Time to sum this plane wave component = 6.589414119720459
+Working on gridid= 7
+Time to run read_ensemble= 8.055166006088257  Time to run migrate_component= 34.33176898956299
+Time to sum this plane wave component = 6.305126905441284
+Working on gridid= 8
+Time to run read_ensemble= 8.164276599884033  Time to run migrate_component= 34.25577139854431
+Time to sum this plane wave component = 6.258203506469727
+Working on gridid= 9
+Time to run read_ensemble= 8.65711522102356  Time to run migrate_component= 34.39367866516113
+Time to sum this plane wave component = 6.227514028549194
+Working on gridid= 10
+Time to run read_ensemble= 9.363125562667847  Time to run migrate_component= 34.134567975997925
+Time to sum this plane wave component = 6.180740594863892
+Working on gridid= 11
+Time to run read_ensemble= 8.284184455871582  Time to run migrate_component= 34.18718934059143
+Time to sum this plane wave component = 6.217313766479492
+Working on gridid= 12
+Time to run read_ensemble= 8.370481491088867  Time to run migrate_component= 34.87252378463745
+Time to sum this plane wave component = 6.7222230434417725
+Working on gridid= 13
+Time to run read_ensemble= 8.98952579498291  Time to run migrate_component= 34.406245470047
+Time to sum this plane wave component = 6.216794729232788
+Working on gridid= 14
+Time to run read_ensemble= 9.249525308609009  Time to run migrate_component= 34.44489288330078
+Time to sum this plane wave component = 6.246403932571411
+Working on gridid= 15
+Time to run read_ensemble= 8.618737936019897  Time to run migrate_component= 34.378883838653564
+Time to sum this plane wave component = 6.265380382537842
+Working on gridid= 16
+Time to run read_ensemble= 8.742720365524292  Time to run migrate_component= 34.32796597480774
+Time to sum this plane wave component = 6.37546443939209
+Working on gridid= 17
+Time to run read_ensemble= 8.477148056030273  Time to run migrate_component= 34.423508644104004
+Time to sum this plane wave component = 6.208617687225342
+Working on gridid= 18
+Time to run read_ensemble= 8.483618259429932  Time to run migrate_component= 34.44158148765564
+Time to sum this plane wave component = 7.171153545379639
+Working on gridid= 19
+Time to run read_ensemble= 8.222107172012329  Time to run migrate_component= 34.345680236816406
+Time to sum this plane wave component = 6.354856491088867
+Working on gridid= 20
+Time to run read_ensemble= 8.281801700592041  Time to run migrate_component= 34.38139510154724
+Time to sum this plane wave component = 6.288818359375
+Working on gridid= 21
+Time to run read_ensemble= 10.403730869293213  Time to run migrate_component= 34.190866231918335
+Time to sum this plane wave component = 6.302320718765259
+Working on gridid= 22
+Time to run read_ensemble= 9.880035400390625  Time to run migrate_component= 34.344130992889404
+Time to sum this plane wave component = 6.404669523239136
+Working on gridid= 23
+Time to run read_ensemble= 7.812366724014282  Time to run migrate_component= 34.38882374763489
+Time to sum this plane wave component = 6.282698392868042
+Working on gridid= 24
+Time to run read_ensemble= 9.864775657653809  Time to run migrate_component= 34.512415647506714
+Time to sum this plane wave component = 6.539860010147095
+Working on gridid= 25
+Time to run read_ensemble= 8.88157057762146  Time to run migrate_component= 34.52530479431152
+Time to sum this plane wave component = 6.329967260360718
+Working on gridid= 26
+Time to run read_ensemble= 7.9221415519714355  Time to run migrate_component= 34.358768463134766
+Time to sum this plane wave component = 6.238973617553711
+Working on gridid= 27
+Time to run read_ensemble= 7.527048826217651  Time to run migrate_component= 34.2295036315918
+Time to sum this plane wave component = 6.288747549057007
+Working on gridid= 28
+Time to run read_ensemble= 7.454776287078857  Time to run migrate_component= 34.60959815979004
+Time to sum this plane wave component = 6.334886074066162
+Working on gridid= 29
+Time to run read_ensemble= 9.76167368888855  Time to run migrate_component= 34.40015625953674
+Time to sum this plane wave component = 6.358942985534668
+Working on gridid= 30
+Time to run read_ensemble= 10.11592411994934  Time to run migrate_component= 34.27446150779724
+Time to sum this plane wave component = 6.237123489379883
+Working on gridid= 31
+Time to run read_ensemble= 9.54495620727539  Time to run migrate_component= 34.22002291679382
+Time to sum this plane wave component = 6.291101694107056
+Working on gridid= 32
+Time to run read_ensemble= 9.490906953811646  Time to run migrate_component= 34.30116653442383
+Time to sum this plane wave component = 6.195125579833984
+Working on gridid= 33
+Time to run read_ensemble= 8.715290307998657  Time to run migrate_component= 34.34156107902527
+Time to sum this plane wave component = 6.278402090072632
+Working on gridid= 34
+Time to run read_ensemble= 8.454622983932495  Time to run migrate_component= 34.377618074417114
+Time to sum this plane wave component = 6.219128608703613
+Working on gridid= 35
+Time to run read_ensemble= 7.528942584991455  Time to run migrate_component= 34.204824924468994
+Time to sum this plane wave component = 6.2501561641693115
+Working on gridid= 36
+Time to run read_ensemble= 7.763021945953369  Time to run migrate_component= 34.21584749221802
+Time to sum this plane wave component = 6.2602057456970215
+Working on gridid= 37
+Time to run read_ensemble= 7.839123487472534  Time to run migrate_component= 34.41376614570618
+Time to sum this plane wave component = 6.204762697219849
+Working on gridid= 38
+Time to run read_ensemble= 7.268924236297607  Time to run migrate_component= 34.2818968296051
+Time to sum this plane wave component = 6.249906301498413
+Working on gridid= 39
+Time to run read_ensemble= 7.877868413925171  Time to run migrate_component= 34.81462526321411
+Time to sum this plane wave component = 6.300628662109375
+Working on gridid= 40
+Time to run read_ensemble= 9.399331092834473  Time to run migrate_component= 34.296035289764404
+Time to sum this plane wave component = 6.252752304077148
+Working on gridid= 41
+Time to run read_ensemble= 7.836779594421387  Time to run migrate_component= 34.483309507369995
+Time to sum this plane wave component = 6.159543037414551
+Working on gridid= 42
+Time to run read_ensemble= 7.685679912567139  Time to run migrate_component= 34.216628551483154
+Time to sum this plane wave component = 6.223584175109863
+Working on gridid= 43
+Time to run read_ensemble= 7.945082664489746  Time to run migrate_component= 34.89843130111694
+Time to sum this plane wave component = 6.220188617706299
+Working on gridid= 44
+Time to run read_ensemble= 9.50903868675232  Time to run migrate_component= 34.31690788269043
+Time to sum this plane wave component = 6.262474775314331
+Working on gridid= 45
+Time to run read_ensemble= 7.005157947540283  Time to run migrate_component= 34.29679226875305
+Time to sum this plane wave component = 6.326048374176025
+Working on gridid= 46
+Time to run read_ensemble= 7.808937311172485  Time to run migrate_component= 34.37472200393677
+Time to sum this plane wave component = 6.200992107391357
+Working on gridid= 47
+Time to run read_ensemble= 8.874444961547852  Time to run migrate_component= 34.24864840507507
+Time to sum this plane wave component = 6.348877906799316
+Working on gridid= 48
+Time to run read_ensemble= 7.812946319580078  Time to run migrate_component= 34.26926922798157
+Time to sum this plane wave component = 6.2566282749176025
+Working on gridid= 49
+Time to run read_ensemble= 7.268047094345093  Time to run migrate_component= 34.832804441452026
+Time to sum this plane wave component = 6.774158716201782
+Working on gridid= 50
+Time to run read_ensemble= 7.102732419967651  Time to run migrate_component= 34.69754099845886
+Time to sum this plane wave component = 6.212836980819702
+Working on gridid= 51
+Time to run read_ensemble= 7.971627712249756  Time to run migrate_component= 34.323662519454956
+Time to sum this plane wave component = 6.220394611358643
+Working on gridid= 52
+Time to run read_ensemble= 11.532588005065918  Time to run migrate_component= 34.04517340660095
+Time to sum this plane wave component = 6.221327781677246
+Working on gridid= 53
+Time to run read_ensemble= 9.539997339248657  Time to run migrate_component= 34.29972219467163
+Time to sum this plane wave component = 6.224882364273071
+Working on gridid= 54
+Time to run read_ensemble= 7.711409091949463  Time to run migrate_component= 35.3402886390686
+Time to sum this plane wave component = 6.276095628738403
+Working on gridid= 55
+Time to run read_ensemble= 8.729058980941772  Time to run migrate_component= 34.79698610305786
+Time to sum this plane wave component = 6.28888463973999
+Working on gridid= 56
+Time to run read_ensemble= 7.99548077583313  Time to run migrate_component= 35.2764527797699
+Time to sum this plane wave component = 6.342447519302368
+Working on gridid= 57
+Time to run read_ensemble= 8.176780700683594  Time to run migrate_component= 34.414482831954956
+Time to sum this plane wave component = 6.19116997718811
+Working on gridid= 58
+Time to run read_ensemble= 8.307220220565796  Time to run migrate_component= 34.330312728881836
+Time to sum this plane wave component = 6.280419588088989
+Working on gridid= 59
+Time to run read_ensemble= 8.00517749786377  Time to run migrate_component= 34.18710207939148
+Time to sum this plane wave component = 6.266686201095581
+Working on gridid= 60
+Time to run read_ensemble= 7.650741338729858  Time to run migrate_component= 34.34273552894592
+Time to sum this plane wave component = 6.201295614242554
+Working on gridid= 61
+Time to run read_ensemble= 8.425076007843018  Time to run migrate_component= 34.34771800041199
+Time to sum this plane wave component = 6.237818241119385
+Working on gridid= 62
+Time to run read_ensemble= 8.822699308395386  Time to run migrate_component= 34.988696813583374
+Time to sum this plane wave component = 6.23308801651001
+Working on gridid= 63
+Time to run read_ensemble= 9.222558975219727  Time to run migrate_component= 34.337886095047
+Time to sum this plane wave component = 6.287947177886963
+Working on gridid= 64
+Time to run read_ensemble= 9.436203956604004  Time to run migrate_component= 34.28774094581604
+Time to sum this plane wave component = 6.256765127182007
+Working on gridid= 65
+Time to run read_ensemble= 11.039777278900146  Time to run migrate_component= 34.2536985874176
+Time to sum this plane wave component = 6.29492712020874
+Working on gridid= 66
+Time to run read_ensemble= 9.010772466659546  Time to run migrate_component= 34.229984521865845
+Time to sum this plane wave component = 6.182933807373047
+Working on gridid= 67
+Time to run read_ensemble= 8.373528718948364  Time to run migrate_component= 34.29858636856079
+Time to sum this plane wave component = 6.218410491943359
+Working on gridid= 68
+Time to run read_ensemble= 7.783101797103882  Time to run migrate_component= 35.64845418930054
+Time to sum this plane wave component = 6.202786445617676
+Working on gridid= 69
+Time to run read_ensemble= 8.791931867599487  Time to run migrate_component= 34.25460433959961
+Time to sum this plane wave component = 6.258468389511108
+Working on gridid= 70
+Time to run read_ensemble= 8.48759913444519  Time to run migrate_component= 34.39974665641785
+Time to sum this plane wave component = 6.186334609985352
+Working on gridid= 71
+Time to run read_ensemble= 7.53983998298645  Time to run migrate_component= 34.25484347343445
+Time to sum this plane wave component = 6.267622947692871
+Working on gridid= 72
+Time to run read_ensemble= 10.021393060684204  Time to run migrate_component= 34.058777809143066
+Time to sum this plane wave component = 6.2295732498168945
+Working on gridid= 73
+Time to run read_ensemble= 8.117897033691406  Time to run migrate_component= 34.28577780723572
+Time to sum this plane wave component = 6.268520832061768
+Working on gridid= 74
+Time to run read_ensemble= 9.52417278289795  Time to run migrate_component= 36.86332392692566
+Time to sum this plane wave component = 6.242443084716797
+Working on gridid= 75
+Time to run read_ensemble= 8.395277500152588  Time to run migrate_component= 34.31909537315369
+Time to sum this plane wave component = 6.234498500823975
+Working on gridid= 76
+Time to run read_ensemble= 8.605045557022095  Time to run migrate_component= 34.125444650650024
+Time to sum this plane wave component = 6.265476942062378
+Working on gridid= 77
+Time to run read_ensemble= 7.824971675872803  Time to run migrate_component= 34.25115370750427
+Time to sum this plane wave component = 6.239923715591431
+Working on gridid= 78
+Time to run read_ensemble= 7.9601891040802  Time to run migrate_component= 34.280147552490234
+Time to sum this plane wave component = 6.36673641204834
+Working on gridid= 79
+Time to run read_ensemble= 8.881283521652222  Time to run migrate_component= 34.34599781036377
+Time to sum this plane wave component = 6.250377655029297
+Working on gridid= 80
+Time to run read_ensemble= 8.537362575531006  Time to run migrate_component= 36.49445581436157
+Time to sum this plane wave component = 6.1727354526519775
+Working on gridid= 81
+Time to run read_ensemble= 7.753169775009155  Time to run migrate_component= 34.137895822525024
+Time to sum this plane wave component = 6.242264986038208
+Working on gridid= 82
+Time to run read_ensemble= 8.216849565505981  Time to run migrate_component= 34.052313804626465
+Time to sum this plane wave component = 6.164524078369141
+Working on gridid= 83
+Time to run read_ensemble= 7.753503799438477  Time to run migrate_component= 34.463372230529785
+Time to sum this plane wave component = 6.322060823440552
+Working on gridid= 84
+Time to run read_ensemble= 10.639001607894897  Time to run migrate_component= 34.609212160110474
+Time to sum this plane wave component = 6.257955074310303
+Working on gridid= 85
+Time to run read_ensemble= 7.6285560131073  Time to run migrate_component= 34.67784643173218
+Time to sum this plane wave component = 6.459293603897095
+Working on gridid= 86
+Time to run read_ensemble= 7.705578804016113  Time to run migrate_component= 35.88981342315674
+Time to sum this plane wave component = 6.334214925765991
+Working on gridid= 87
+Time to run read_ensemble= 8.8468599319458  Time to run migrate_component= 35.221614360809326
+Time to sum this plane wave component = 6.295467376708984
+Working on gridid= 88
+Time to run read_ensemble= 9.754608631134033  Time to run migrate_component= 34.69722533226013
+Time to sum this plane wave component = 6.354660511016846
+Working on gridid= 89
+Time to run read_ensemble= 8.92698621749878  Time to run migrate_component= 34.67282199859619
+Time to sum this plane wave component = 6.465573787689209
+Working on gridid= 90
+Time to run read_ensemble= 9.028166055679321  Time to run migrate_component= 34.79054641723633
+Time to sum this plane wave component = 6.467957973480225
+Working on gridid= 91
+Time to run read_ensemble= 8.426602125167847  Time to run migrate_component= 34.58620309829712
+Time to sum this plane wave component = 6.358114004135132
+Working on gridid= 92
+Time to run read_ensemble= 8.013171672821045  Time to run migrate_component= 35.53407955169678
+Time to sum this plane wave component = 6.550153493881226
+Working on gridid= 93
+Time to run read_ensemble= 8.094647407531738  Time to run migrate_component= 34.584410667419434
+Time to sum this plane wave component = 6.447760581970215
+Working on gridid= 94
+Time to run read_ensemble= 8.543967008590698  Time to run migrate_component= 34.59866499900818
+Time to sum this plane wave component = 6.453108549118042
+Working on gridid= 95
+Time to run read_ensemble= 7.777960777282715  Time to run migrate_component= 34.64443612098694
+Time to sum this plane wave component = 6.321584701538086
+Working on gridid= 96
+Time to run read_ensemble= 8.23897123336792  Time to run migrate_component= 34.516050815582275
+Time to sum this plane wave component = 6.339736223220825
+Working on gridid= 97
+Time to run read_ensemble= 8.444616556167603  Time to run migrate_component= 34.47791385650635
+Time to sum this plane wave component = 6.285980939865112
+Working on gridid= 98
+Time to run read_ensemble= 8.745432376861572  Time to run migrate_component= 35.28660845756531
+Time to sum this plane wave component = 7.229578256607056
+Working on gridid= 99
+Time to run read_ensemble= 8.715515375137329  Time to run migrate_component= 34.68935036659241
+Time to sum this plane wave component = 6.281677007675171
+Working on gridid= 100
+Time to run read_ensemble= 7.52168607711792  Time to run migrate_component= 34.25572109222412
+Time to sum this plane wave component = 6.260492563247681
+Working on gridid= 101
+Time to run read_ensemble= 8.075228691101074  Time to run migrate_component= 34.246389865875244
+Time to sum this plane wave component = 6.35182523727417
+Working on gridid= 102
+Time to run read_ensemble= 9.927151918411255  Time to run migrate_component= 34.17285084724426
+Time to sum this plane wave component = 6.2537682056427
+Working on gridid= 103
+Time to run read_ensemble= 7.044424772262573  Time to run migrate_component= 34.399181842803955
+Time to sum this plane wave component = 6.358135461807251
+Working on gridid= 104
+Time to run read_ensemble= 7.794166803359985  Time to run migrate_component= 34.171722412109375
+Time to sum this plane wave component = 6.929145812988281
+Working on gridid= 105
+Time to run read_ensemble= 7.69119668006897  Time to run migrate_component= 35.0240592956543
+Time to sum this plane wave component = 6.229864120483398
+Working on gridid= 106
+Time to run read_ensemble= 8.070320129394531  Time to run migrate_component= 34.274763107299805
+Time to sum this plane wave component = 6.220337152481079
+Working on gridid= 107
+Time to run read_ensemble= 7.942340612411499  Time to run migrate_component= 34.256327867507935
+Time to sum this plane wave component = 6.213213682174683
+Working on gridid= 108
+Time to run read_ensemble= 8.413223505020142  Time to run migrate_component= 34.26532030105591
+Time to sum this plane wave component = 6.33583664894104
+Working on gridid= 109
+Time to run read_ensemble= 8.471293210983276  Time to run migrate_component= 34.34203100204468
+Time to sum this plane wave component = 6.202084302902222
+Working on gridid= 110
+Time to run read_ensemble= 7.940339803695679  Time to run migrate_component= 34.27204465866089
+Time to sum this plane wave component = 6.271516561508179
+Working on gridid= 111
+Time to run read_ensemble= 8.099811315536499  Time to run migrate_component= 35.781278133392334
+Time to sum this plane wave component = 6.35650372505188
+Working on gridid= 112
+Time to run read_ensemble= 8.4295334815979  Time to run migrate_component= 34.32567286491394
+Time to sum this plane wave component = 6.241329669952393
+Working on gridid= 113
+Time to run read_ensemble= 8.178431987762451  Time to run migrate_component= 34.1309700012207
+Time to sum this plane wave component = 6.224792718887329
+Working on gridid= 114
+Time to run read_ensemble= 15.045846462249756  Time to run migrate_component= 34.259146213531494
+Time to sum this plane wave component = 6.243881464004517
+Working on gridid= 115
+Time to run read_ensemble= 7.798798561096191  Time to run migrate_component= 34.27420210838318
+Time to sum this plane wave component = 6.3710057735443115
+Working on gridid= 116
+Time to run read_ensemble= 8.812438726425171  Time to run migrate_component= 34.134182929992676
+Time to sum this plane wave component = 6.2211456298828125
+Working on gridid= 117
+Time to run read_ensemble= 8.264333248138428  Time to run migrate_component= 37.323214292526245
+Time to sum this plane wave component = 6.354688405990601
+Working on gridid= 118
+Time to run read_ensemble= 8.237798929214478  Time to run migrate_component= 34.162041425704956
+Time to sum this plane wave component = 6.227450847625732
+Working on gridid= 119
+Time to run read_ensemble= 7.895975828170776  Time to run migrate_component= 34.144633769989014
+Time to sum this plane wave component = 6.237109184265137
+Working on gridid= 120
+Time to run read_ensemble= 7.925196409225464  Time to run migrate_component= 34.19908928871155
+Time to sum this plane wave component = 6.230705499649048
+pwmig test finished:  elapsed time= 6261.5329620838165
+Saving output with dir= /test/imagevolumes  and dfile= test_8threads.dat
+Contents of doc saved to GCLfielddata collection
+_id 678979aef5b191034e668858
+azimuth_y -14.999999999999744
+byte_order little_endian
+datatype u8
+dfile test_8threads.dat
+dir /test/imagevolumes
+dx1_nom 35.0
+dx2_nom 35.0
+dx3_nom 2.0
+field_data_file test_8threads.dat
+field_data_file_extension dat
+field_data_foff 255360000
+grid_data_file test_8threads.dat
+grid_data_file_extension dat
+grid_data_foff 215040000
+i0 20
+j0 43
+k0 0
+n1 60
+n2 70
+n3 400
+name taimage
+nv 5
+object_type pwmig::gclgrid::GCLvectorfield3d
+origin_latitude 41.422999999999305
+origin_longitude -117.44969999999802
+origin_radius 5570.778216927553
+x1high 1389.4175526199042
+x1low -733.669754320869
+x2high 941.6036239953876
+x2low -1527.2138636653726
+x3high 833.0164008909555
+x3low -309.9048225804503
+Done with pwmig.py

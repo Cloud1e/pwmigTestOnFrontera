@@ -1,0 +1,26 @@
+services:
+  mongodb:
+    image: mongo:4.4
+    networks:
+      - mynetwork
+    ports:
+      - "27017:27017"
+  parallel_pwmig:
+    build: .
+    image: parallel_pwmig:latest
+    networks:
+      - mynetwork
+    volumes:
+      - ./pwmigtest_rerun:/test
+    working_dir: /test
+    stdin_open: true
+    tty: true
+    platform: linux/amd64
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017
+
+networks:
+  mynetwork:
+    driver: bridge
